@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <malloc.h>
+
+void main()
+{
+    char buffer[] = {'e', 'E', 'u', 'U', 'i', 'I', 'o', 'O', 'a', 'A' };
+    char *mass = (char *)malloc(10000*sizeof(char));
+    char simv;
+    int i = 0, j;
+//посимвольный ввод. ¬вод пробела = конец ввода
+    printf("Enter the letter:\n");
+    do
+    {
+        scanf("%c",&simv);
+        mass[i] = simv;
+        i++;
+    }
+    while (simv != ' ');
+
+//полученна€ последовательность без глассных
+    printf("\nResult:\n");
+    for(i=0; mass[i]!=' '; i++)
+    {
+        for(j=0; j<10; j++)
+        {
+            if(mass[i] == buffer[j])
+            {
+                printf("%c",mass[i]);
+            }
+        }
+    }
+    printf("\n");
+    free(mass);
+}
