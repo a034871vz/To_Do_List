@@ -17,7 +17,7 @@ void push(tNode **head, int data)
     (*head) = tmp;
 }
 
-tNode* getLast(tNode *head) //получаем последний элемент
+tNode* getLast(tNode *head) //ГЇГ®Г«ГіГ·Г ГҐГ¬ ГЇГ®Г±Г«ГҐГ¤Г­ГЁГ© ГЅГ«ГҐГ¬ГҐГ­ГІ
 {
     if (head == NULL)
 	{
@@ -30,7 +30,7 @@ tNode* getLast(tNode *head) //получаем последний элемент
     return head;
 }
 
-void pushBack(tNode *head, int value) //вставляем новый элемент в конец
+void pushBack(tNode *head, int value) //ГўГ±ГІГ ГўГ«ГїГҐГ¬ Г­Г®ГўГ»Г© ГЅГ«ГҐГ¬ГҐГ­ГІ Гў ГЄГ®Г­ГҐГ¶
 {
     tNode *last = getLast(head);
     tNode *tmp = (tNode*) malloc(sizeof(tNode));
@@ -51,12 +51,12 @@ void printList(tNode *head)
     printf("\n");
 }
 
-void insert(tNode *head, unsigned n, int val) //вставка элемента куда захотим :)
+void insert(tNode *head, unsigned n, int val) //ГўГ±ГІГ ГўГЄГ  ГЅГ«ГҐГ¬ГҐГ­ГІГ  ГЄГіГ¤Г  Г§Г ГµГ®ГІГЁГ¬ :)
 {
     unsigned i = 0;
     tNode *tmp = NULL;
-    //Находим нужный элемент. Если вышли за пределы списка, то выходим из цикла,
-    //ошибка выбрасываться не будет, произойдёт вставка в конец
+    //ГЌГ ГµГ®Г¤ГЁГ¬ Г­ГіГ¦Г­Г»Г© ГЅГ«ГҐГ¬ГҐГ­ГІ. Г…Г±Г«ГЁ ГўГ»ГёГ«ГЁ Г§Г  ГЇГ°ГҐГ¤ГҐГ«Г» Г±ГЇГЁГ±ГЄГ , ГІГ® ГўГ»ГµГ®Г¤ГЁГ¬ ГЁГ§ Г¶ГЁГЄГ«Г ,
+    //Г®ГёГЁГЎГЄГ  ГўГ»ГЎГ°Г Г±Г»ГўГ ГІГјГ±Гї Г­ГҐ ГЎГіГ¤ГҐГІ, ГЇГ°Г®ГЁГ§Г®Г©Г¤ВёГІ ГўГ±ГІГ ГўГЄГ  Гў ГЄГ®Г­ГҐГ¶
     while (i < n && head->next)
 	{
         head = head->next;
@@ -64,11 +64,11 @@ void insert(tNode *head, unsigned n, int val) //вставка элемента куда захотим :)
     }
     tmp = (tNode*) malloc(sizeof(tNode));
     tmp->value = val;
-    //Если это не последний элемент, то next перекидываем на следующий
+    //Г…Г±Г«ГЁ ГЅГІГ® Г­ГҐ ГЇГ®Г±Г«ГҐГ¤Г­ГЁГ© ГЅГ«ГҐГ¬ГҐГ­ГІ, ГІГ® next ГЇГҐГ°ГҐГЄГЁГ¤Г»ГўГ ГҐГ¬ Г­Г  Г±Г«ГҐГ¤ГіГѕГ№ГЁГ©
     if (head->next)
 	{
         tmp->next = head->next;
-    //иначе на NULL
+    //ГЁГ­Г Г·ГҐ Г­Г  NULL
     }
 	else
 	{
@@ -79,7 +79,7 @@ void insert(tNode *head, unsigned n, int val) //вставка элемента куда захотим :)
 }
 
 
-void deleteList(tNode **head) //удаляем список - освобождаем память
+void deleteList(tNode **head) //ГіГ¤Г Г«ГїГҐГ¬ Г±ГЇГЁГ±Г®ГЄ - Г®Г±ГўГ®ГЎГ®Г¦Г¤Г ГҐГ¬ ГЇГ Г¬ГїГІГј
 {
     tNode* prev = NULL;
     while ((*head)->next) {
@@ -97,7 +97,7 @@ void main()
     tNode* head = NULL;
 	setlocale(0,"");
 	printf("Create a list.Add to it the element = 54\n");
-	push(&head,54);//первый элемент списка
+	push(&head,54);//ГЇГҐГ°ГўГ»Г© ГЅГ«ГҐГ¬ГҐГ­ГІ Г±ГЇГЁГ±ГЄГ 
 
     pushBack(head, 14);
     pushBack(head, -812);
