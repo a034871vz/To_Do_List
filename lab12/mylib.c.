@@ -1,19 +1,1 @@
-#include "mylib.h"
 
-float parseFloatAfterInfo(char *info, char *str) {
-
-	float 	value;
-	int 	err;
-	strcpy(str, "");
-
-	printf("%s", info);
-	err = scanf("%s", str);
-	if(err != 1) {
-		do {
-			printf("Failed to parse float! Try again!");
-
-		} while(scanf("%s", str) != 1);
-	}
-	value = atof(str);
-	return value;
-}
