@@ -1,20 +1,19 @@
+#include <locale.h>
 #include <malloc.h>
-#include "mylib.h"
+#include <mylib.h>
 
+#define MAX_SIZE 100000
 
-int main(void) {
+int main()
+{
+	int size;
+    char *text = (char *)malloc(MAX_SIZE*sizeof(char));
 
-	float 	parseFloatAfterInfo(char*, char[]);
+	setlocale(0,"");
+	printf("Введите строку: ");
+	gets(text);
 
-	char	a,x, xEnd,step;
-	char	*buffer;
-
-	buffer = (char*)malloc(63 * sizeof(char));
-
-	   a = parseFloatAfterInfo("\nType value of 'a': ", buffer);
-	   x = parseFloatAfterInfo("Type 'xBegin': ", buffer);
-	xEnd = parseFloatAfterInfo("Type 'xEnd': ", buffer);
-	step = parseFloatAfterInfo("Define 'step' value: ", buffer);
-
-	return 0;
+	size = GetSize(text);
+    ReccuringCharsCount(text,size);
+    return 0;
 }
