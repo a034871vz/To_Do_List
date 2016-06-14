@@ -1,17 +1,51 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <math.h>
+#ifndef H_FUNCTIONS  //проверка двйоного подключения Guard Ifdef
+#define H_FUNCTIONS
 
-#define KNRM	"\x1B[0m"
-#define KRED	"\x1B[31m"
-#define KGRN	"\x1B[32m"
-#define KYEL	"\x1B[33m"
-#define KBLU	"\x1B[34m"
-#define KMAG	"\x1B[35m"
-#define KCYN	"\x1B[36m"
-#define KWHT	"\x1B[37m"
-#define KRST	"\033[0m"
+//макрос сравнения
+#define SETZERO(X)  X=0
 
-float parseFloatAfterInfo(char*, char*);
+//макрос вывода
+#define NEW_STR() printf("\n")
+
+//макрос foreach
+#define foreach( ptrvar, strvar ) 
+	char* ptrvar; \
+	for( ptrvar=strvar ; (*ptrvar) != '\0' ; *ptrvar++)
+
+int GetSize(char *mass) //вывовдит исходную строку и возвращает количество символов
+{
+	int count = 0;
+	foreach(el, mass)
+	{
+		printf("%c", *el);
+		count++;
+	}
+	NEW_STR();
+	return count;
+}
+void ReccuringCharsCount(char* str, int size)
+{
+	int k, j, i, cnt;
+	int repetition; 
+    for (SETZERO(k); k < size; ++k)
+	{ 
+        cnt = 1; 
+		repetition = FALSE; 
+		for (SETZERO(j); j < k; ++j)
+			if ( str[k] == str[j] )
+			{ 
+				repetition = TRUE; 
+                break; 
+			}
+        if (repetition == TRUE) 
+			continue;
+        for (i = k+1; i < size; ++i)
+		{ 
+             if ( str[k] == str[i] )
+                ++cnt;
+        }
+        printf("%c --> %d раз(а).\n", str[k], cnt); 
+    }
+}
+#endif
 
