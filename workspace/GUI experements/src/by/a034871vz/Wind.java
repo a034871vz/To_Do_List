@@ -1,0 +1,78 @@
+package by.a034871vz;
+
+import javax.swing.JFrame;
+import javax.swing.JTextArea;
+import javax.swing.JButton;
+import javax.swing.JTextField;
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.JToolBar;
+import javax.swing.JMenuBar;
+import javax.swing.JMenu;
+import javax.swing.JCheckBoxMenuItem;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JMenuItem;
+
+public class Wind extends JFrame {
+
+	private static final long serialVersionUID = 5209814709133714532L;
+	private JTextField tf;
+
+	public Wind() {
+		getContentPane().setLayout(null);
+		
+		JTextArea ta = new JTextArea();
+		ta.setBounds(10, 43, 367, 328);
+		getContentPane().add(ta);
+		
+		JButton b1 = new JButton("Отправить");
+		b1.setBounds(288, 382, 89, 33);
+		getContentPane().add(b1);
+		
+		tf = new JTextField();
+		tf.setBounds(10, 382, 268, 33);
+		getContentPane().add(tf);
+		tf.setColumns(10);
+		
+		JLabel l = new JLabel("Список пользователей онлайн:");
+		l.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		l.setBounds(397, 23, 191, 21);
+		getContentPane().add(l);
+		
+		JTextArea textArea = new JTextArea();
+		textArea.setBounds(397, 43, 191, 328);
+		getContentPane().add(textArea);
+		
+		JButton b2 = new JButton("Позвонить");
+		b2.setBounds(499, 382, 89, 33);
+		getContentPane().add(b2);
+		
+		JMenuBar menuBar = new JMenuBar();
+		menuBar.setBounds(0, 0, 644, 21);
+		getContentPane().add(menuBar);
+		
+		JMenu mnFile = new JMenu("File");
+		menuBar.add(mnFile);
+		
+		JMenuItem mntmSaveImage = new JMenuItem("Save Image");
+		mnFile.add(mntmSaveImage);
+		
+		JMenu mnOptions = new JMenu("Options");
+		menuBar.add(mnOptions);
+		
+		JMenuItem mntmExit = new JMenuItem("Exit");
+		mntmExit.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				System.exit(0);
+			}
+		});
+		mnOptions.add(mntmExit);
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+}

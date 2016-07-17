@@ -1,0 +1,4 @@
+1464809402572	Rename type 'NetServer'
+1464809420875	Convert local variable 'server' to field
+1464809448662	Convert local variable 'sock' to field
+1464814910999	Rename field 'soobsh'

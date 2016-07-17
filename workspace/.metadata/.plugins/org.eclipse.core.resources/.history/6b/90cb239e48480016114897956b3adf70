@@ -1,0 +1,11 @@
+package by.a034871vz;
+
+public class Main {
+	private static Wind wind;
+	public static void main(String[] args) {
+		wind = new Wind(640, 480);
+		// TODO Auto-generated method stub
+
+	}
+
+}

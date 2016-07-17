@@ -1,0 +1,12 @@
+package by.a034871vz;
+
+import javax.swing.JFrame;
+
+public class Wind extends JFrame {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

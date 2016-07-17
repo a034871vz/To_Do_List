@@ -1,0 +1,55 @@
+package by.a034871vz;
+
+import javax.swing.JFrame;
+import javax.swing.JTextArea;
+import javax.swing.JButton;
+import javax.swing.JTextField;
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.JToolBar;
+
+public class Wind extends JFrame {
+
+	private static final long serialVersionUID = 5209814709133714532L;
+	private JTextField tf;
+
+	public Wind(int width, int height) {
+		getContentPane().setLayout(null);
+		
+		JTextArea ta = new JTextArea();
+		ta.setBounds(10, 70, 367, 301);
+		getContentPane().add(ta);
+		
+		JButton b1 = new JButton("Отправить");
+		b1.setBounds(288, 382, 89, 33);
+		getContentPane().add(b1);
+		
+		tf = new JTextField();
+		tf.setBounds(10, 382, 268, 33);
+		getContentPane().add(tf);
+		tf.setColumns(10);
+		
+		JLabel l = new JLabel("Список пользователей онлайн:");
+		l.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		l.setBounds(415, 43, 199, 33);
+		getContentPane().add(l);
+		
+		JTextArea textArea = new JTextArea();
+		textArea.setBounds(397, 70, 217, 301);
+		getContentPane().add(textArea);
+		
+		JButton b2 = new JButton("Позвонить");
+		b2.setBounds(525, 382, 89, 33);
+		getContentPane().add(b2);
+		
+		JToolBar toolBar = new JToolBar();
+		toolBar.setBounds(0, 0, 614, 27);
+		getContentPane().add(toolBar);
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+}
