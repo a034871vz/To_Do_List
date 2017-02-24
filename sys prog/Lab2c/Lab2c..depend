@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1487934018 source:c:\workspace\lab2c.\lab2.c
+	<malloc.h>
+
+1487934259 source:c:\workspace\lab2c.\main2.c
+	"lab2.h"
+	<stdio.h>
+
+1487929562 c:\workspace\lab2c.\lab2.h
+
