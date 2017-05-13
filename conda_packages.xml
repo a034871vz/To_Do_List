@@ -226,7 +226,7 @@
         <entry key="itsdangerous" value="0.24" />
         <entry key="javabridge" value="1.0.14" />
         <entry key="jdcal" value="1.3" />
-        <entry key="jedi" value="0.9.0" />
+        <entry key="jedi" value="0.10.2" />
         <entry key="jinja2" value="2.9.6" />
         <entry key="jmespath" value="0.9.0" />
         <entry key="joblib" value="0.11" />
@@ -974,7 +974,7 @@
         <entry key="rasterio" value="0.25.0" />
         <entry key="reportlab" value="3.4.0" />
         <entry key="repoze.lru" value="0.6" />
-        <entry key="requests" value="2.13.0" />
+        <entry key="requests" value="2.14.2" />
         <entry key="requests-file" value="1.4.1" />
         <entry key="requests-kerberos" value="0.8.0" />
         <entry key="responses" value="0.5.1" />
@@ -3832,6 +3832,7 @@
             <list>
               <option value="0.8.1" />
               <option value="0.9.0" />
+              <option value="0.10.2" />
             </list>
           </value>
         </entry>
@@ -10251,6 +10252,7 @@
               <option value="2.8.1" />
               <option value="2.9.0" />
               <option value="2.9.1" />
+              <option value="2.14.2" />
             </list>
           </value>
         </entry>
@@ -11683,6 +11685,6 @@
     <option name="CONDA_CHANNELS">
       <set />
     </option>
-    <option name="LAST_TIME_CHECKED" value="1494579367974" />
+    <option name="LAST_TIME_CHECKED" value="1494670512038" />
   </component>
 </application>
