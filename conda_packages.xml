@@ -15,9 +15,9 @@
         <entry key="anaconda-build" value="1.15.0" />
         <entry key="anaconda-clean" value="1.1.0" />
         <entry key="anaconda-client" value="1.6.3" />
-        <entry key="anaconda-navigator" value="1.5.2" />
+        <entry key="anaconda-navigator" value="1.5.3" />
         <entry key="anaconda-project" value="0.6.0" />
-        <entry key="anaconda-verify" value="1.3.6" />
+        <entry key="anaconda-verify" value="1.3.7" />
         <entry key="ansi2html" value="1.1.1" />
         <entry key="anyqt" value="0.0.8" />
         <entry key="appdirs" value="1.4.0" />
@@ -90,7 +90,7 @@
         <entry key="colorama" value="0.3.9" />
         <entry key="colorcet" value="0.9.1" />
         <entry key="comtypes" value="1.1.2" />
-        <entry key="conda" value="4.3.18" />
+        <entry key="conda" value="4.3.21" />
         <entry key="conda-api" value="1.1.0" />
         <entry key="conda-build" value="2.1.15" />
         <entry key="conda-build-all" value="1.0.2" />
@@ -544,7 +544,7 @@
         <entry key="mtq" value="0.7.0" />
         <entry key="multimethods" value="1.0.0" />
         <entry key="multipledispatch" value="0.4.9" />
-        <entry key="munch" value="2.1.0" />
+        <entry key="munch" value="2.1.1" />
         <entry key="mysql-connector-python" value="2.0.4" />
         <entry key="mysql-python" value="1.2.5" />
         <entry key="natsort" value="5.0.3" />
@@ -578,7 +578,7 @@
         <entry key="olefile" value="0.44" />
         <entry key="openjdk" value="8.0.121" />
         <entry key="openpyxl" value="2.4.7" />
-        <entry key="openssl" value="1.0.2k" />
+        <entry key="openssl" value="1.0.2l" />
         <entry key="oracle-instantclient" value="11.2.0.4.0" />
         <entry key="orange" value="2.7.8" />
         <entry key="orange3" value="3.4.1" />
@@ -1309,6 +1309,7 @@
               <option value="1.5.0" />
               <option value="1.5.1" />
               <option value="1.5.2" />
+              <option value="1.5.3" />
             </list>
           </value>
         </entry>
@@ -1334,6 +1335,7 @@
               <option value="1.3.4" />
               <option value="1.3.5" />
               <option value="1.3.6" />
+              <option value="1.3.7" />
             </list>
           </value>
         </entry>
@@ -2294,6 +2296,7 @@
               <option value="4.3.8" />
               <option value="4.3.9" />
               <option value="4.3.18" />
+              <option value="4.3.21" />
             </list>
           </value>
         </entry>
@@ -6336,6 +6339,7 @@
             <list>
               <option value="2.0.4" />
               <option value="2.1.0" />
+              <option value="2.1.1" />
             </list>
           </value>
         </entry>
@@ -6778,6 +6782,7 @@
               <option value="1.0.2i" />
               <option value="1.0.2j" />
               <option value="1.0.2k" />
+              <option value="1.0.2l" />
             </list>
           </value>
         </entry>
@@ -11741,6 +11746,6 @@
     <option name="CONDA_CHANNELS">
       <set />
     </option>
-    <option name="LAST_TIME_CHECKED" value="1495640648264" />
+    <option name="LAST_TIME_CHECKED" value="1496047715961" />
   </component>
 </application>
