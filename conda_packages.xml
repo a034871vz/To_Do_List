@@ -1103,7 +1103,7 @@
         <entry key="sphinx_rtd_theme" value="0.2.4" />
         <entry key="sphinxcontrib" value="1.0" />
         <entry key="sphinxcontrib-websupport" value="1.0.1" />
-        <entry key="spyder" value="3.2.2" />
+        <entry key="spyder" value="3.2.3" />
         <entry key="spyder-app" value="2.3.8" />
         <entry key="sqlalchemy" value="1.1.13" />
         <entry key="sqlite" value="3.13.0" />
@@ -11772,6 +11772,7 @@
               <option value="3.2.0" />
               <option value="3.2.1" />
               <option value="3.2.2" />
+              <option value="3.2.3" />
             </list>
           </value>
         </entry>
@@ -12804,6 +12805,6 @@
     <option name="CONDA_CHANNELS">
       <set />
     </option>
-    <option name="LAST_TIME_CHECKED" value="1504949617531" />
+    <option name="LAST_TIME_CHECKED" value="1505235259311" />
   </component>
 </application>
