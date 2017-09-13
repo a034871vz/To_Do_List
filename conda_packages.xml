@@ -100,7 +100,7 @@
         <entry key="comtypes" value="1.1.2" />
         <entry key="conda" value="4.3.25" />
         <entry key="conda-api" value="1.1.0" />
-        <entry key="conda-build" value="3.0.15" />
+        <entry key="conda-build" value="3.0.17" />
         <entry key="conda-build-all" value="1.0.2" />
         <entry key="conda-env" value="2.6.0" />
         <entry key="conda-manager" value="0.4.0" />
@@ -2587,6 +2587,8 @@
               <option value="3.0.6" />
               <option value="3.0.8" />
               <option value="3.0.9" />
+              <option value="3.0.16" />
+              <option value="3.0.17" />
             </list>
           </value>
         </entry>
@@ -12805,6 +12807,6 @@
     <option name="CONDA_CHANNELS">
       <set />
     </option>
-    <option name="LAST_TIME_CHECKED" value="1505235259311" />
+    <option name="LAST_TIME_CHECKED" value="1505332877159" />
   </component>
 </application>
