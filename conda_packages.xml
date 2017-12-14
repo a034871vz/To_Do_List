@@ -98,7 +98,7 @@
         <entry key="colorama" value="0.3.9" />
         <entry key="colorcet" value="0.9.1" />
         <entry key="comtypes" value="1.1.2" />
-        <entry key="conda" value="4.3.27" />
+        <entry key="conda" value="4.3.30" />
         <entry key="conda-api" value="1.1.0" />
         <entry key="conda-build" value="3.0.19" />
         <entry key="conda-build-all" value="1.0.2" />
@@ -942,6 +942,7 @@
         <entry key="r-pki" value="0.1_5.1" />
         <entry key="r-plm" value="1.6_5" />
         <entry key="r-plogr" value="0.1_1" />
+        <entry key="r-plumber" value="0.4.2" />
         <entry key="r-plyr" value="1.8.4" />
         <entry key="r-png" value="0.1_7" />
         <entry key="r-polspline" value="1.1.12" />
@@ -2504,6 +2505,7 @@
               <option value="4.3.24" />
               <option value="4.3.25" />
               <option value="4.3.27" />
+              <option value="4.3.30" />
             </list>
           </value>
         </entry>
@@ -10332,6 +10334,13 @@
             </list>
           </value>
         </entry>
+        <entry key="r-plumber">
+          <value>
+            <list>
+              <option value="0.4.2" />
+            </list>
+          </value>
+        </entry>
         <entry key="r-plyr">
           <value>
             <list>
@@ -13112,6 +13121,6 @@
     <option name="CONDA_CHANNELS">
       <set />
     </option>
-    <option name="LAST_TIME_CHECKED" value="1509095929525" />
+    <option name="LAST_TIME_CHECKED" value="1513246043431" />
   </component>
 </application>
