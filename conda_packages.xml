@@ -469,6 +469,7 @@
         <entry key="m2w64-crt-git" value="5.0.0.4636.2595836" />
         <entry key="m2w64-curl" value="7.48.0" />
         <entry key="m2w64-diffutils" value="3.3.2" />
+        <entry key="m2w64-dlfcn" value="1.1.1" />
         <entry key="m2w64-dsdp" value="5.8" />
         <entry key="m2w64-expat" value="2.1.1" />
         <entry key="m2w64-fftw" value="3.3.4" />
@@ -5913,6 +5914,13 @@
           <value>
             <list>
               <option value="3.3.2" />
+            </list>
+          </value>
+        </entry>
+        <entry key="m2w64-dlfcn">
+          <value>
+            <list>
+              <option value="1.1.1" />
             </list>
           </value>
         </entry>
@@ -13121,6 +13129,6 @@
     <option name="CONDA_CHANNELS">
       <set />
     </option>
-    <option name="LAST_TIME_CHECKED" value="1513336493946" />
+    <option name="LAST_TIME_CHECKED" value="1514575597534" />
   </component>
 </application>
