@@ -7858,22 +7858,22 @@
         <entry key="py">
           <value>
             <list>
-              <option value="1.4.12" />
-              <option value="1.4.14" />
-              <option value="1.4.17" />
-              <option value="1.4.19" />
-              <option value="1.4.20" />
-              <option value="1.4.22" />
-              <option value="1.4.23" />
-              <option value="1.4.24" />
-              <option value="1.4.25" />
-              <option value="1.4.26" />
-              <option value="1.4.27" />
-              <option value="1.4.30" />
-              <option value="1.4.31" />
-              <option value="1.4.32" />
-              <option value="1.4.33" />
               <option value="1.4.34" />
+              <option value="1.4.33" />
+              <option value="1.4.32" />
+              <option value="1.4.31" />
+              <option value="1.4.30" />
+              <option value="1.4.27" />
+              <option value="1.4.26" />
+              <option value="1.4.25" />
+              <option value="1.4.24" />
+              <option value="1.4.23" />
+              <option value="1.4.22" />
+              <option value="1.4.20" />
+              <option value="1.4.19" />
+              <option value="1.4.17" />
+              <option value="1.4.14" />
+              <option value="1.4.12" />
             </list>
           </value>
         </entry>
@@ -8208,9 +8208,9 @@
         <entry key="pyqt">
           <value>
             <list>
-              <option value="4.10.4" />
-              <option value="4.11.4" />
               <option value="5.6.0" />
+              <option value="4.11.4" />
+              <option value="4.10.4" />
             </list>
           </value>
         </entry>
@@ -13137,6 +13137,6 @@
     <option name="CONDA_CHANNELS">
       <set />
     </option>
-    <option name="LAST_TIME_CHECKED" value="1518349409267" />
+    <option name="LAST_TIME_CHECKED" value="1518356511542" />
   </component>
 </application>
