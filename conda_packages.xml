@@ -5,6 +5,7 @@
         <entry key="7za" value="920" />
         <entry key="_license" value="1.1" />
         <entry key="_nb_ext_conf" value="0.4.0" />
+        <entry key="_r-mutex" value="1.0.0" />
         <entry key="_windows" value="1.0" />
         <entry key="accelerate" value="2.3.1" />
         <entry key="accelerate_cudalib" value="2.0" />
@@ -1254,6 +1255,13 @@
               <option value="0.2.0" />
               <option value="0.3.0" />
               <option value="0.4.0" />
+            </list>
+          </value>
+        </entry>
+        <entry key="_r-mutex">
+          <value>
+            <list>
+              <option value="1.0.0" />
             </list>
           </value>
         </entry>
@@ -13129,6 +13137,6 @@
     <option name="CONDA_CHANNELS">
       <set />
     </option>
-    <option name="LAST_TIME_CHECKED" value="1514575597534" />
+    <option name="LAST_TIME_CHECKED" value="1518349409267" />
   </component>
 </application>
