@@ -8,7 +8,7 @@
   </tool>
   <tool name="PUIC4" description="PUIC4" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="D:\Python3.5.0\Lib\site-packages\PyQt5\pyuic5" />
+      <option name="COMMAND" value="D:\Python3.5.0\Lib\site-packages\PyQt5\pyuic5.bat" />
       <option name="PARAMETERS" value="$FileName$ - o $FileNameWithoutAllExtensions $.py" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
